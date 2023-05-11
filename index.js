@@ -1,3 +1,3 @@
-import { multiply } from 'my-lib/subpackage';
+// auto-import works for the library root
 
-console.log(multiply(2, 3)); // 6
+// but not for subpackages
